@@ -1,0 +1,4 @@
+@define-color foreground #cdd6f4; /* text */
+@define-color background #1e1e2e; /* base */
+@define-color border     #11111b; /* crust */
+@define-color accent     #cba6f7; /* mauve */
