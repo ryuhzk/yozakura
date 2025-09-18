@@ -13,10 +13,6 @@ return {
 			})
 			vim.cmd.colorscheme("catppuccin-mocha")
 		end,
-		opts = function()
-			local bufferline = require("catppuccin.groups.integrations.bufferline")
-			bufferline.get = bufferline.get or bufferline.get_theme
-		end,
 	},
 	{
 		"LazyVim/LazyVim",
